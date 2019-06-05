@@ -1,0 +1,9 @@
+<div>
+  <h1>{{ user.name }}</h1>
+  <h2>{{ user.title}}</h2>
+  <div>
+    <h4>Phone</h4>
+    <p *ngFor="let phoneNumber of user.phone">{{phoneNumber}} </p>
+  </div>
+  
+</div>
